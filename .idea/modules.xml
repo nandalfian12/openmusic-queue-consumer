@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../openmusic-api/.idea/OpenMusic-API-restart.iml" filepath="$PROJECT_DIR$/../openmusic-api/.idea/OpenMusic-API-restart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/openmusic-consumer.iml" filepath="$PROJECT_DIR$/.idea/openmusic-consumer.iml" />
+    </modules>
+  </component>
+</project>
