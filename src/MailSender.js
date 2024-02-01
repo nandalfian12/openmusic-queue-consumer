@@ -15,6 +15,9 @@ class MailSender {
   }
 
   sendEmail(targetEmail, content) {
+    if (!content) {
+      throw new Error('Content is undefined');
+    }
     const message = {
       from: 'Openmusic Apps',
       to: targetEmail,
@@ -22,8 +25,8 @@ class MailSender {
       text: 'Terlampir hasil dari ekspor playlist',
       attachments: [
         {
-          filename: 'playlists.json',
-          content,
+          filename: 'playlist.json',
+          content: Buffer.from(content, 'utf-8'),
         },
       ],
     };
